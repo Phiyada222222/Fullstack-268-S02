@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-268-s02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phiyada222222/Fullstack-268-S02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Phiyada222222/Fullstack-268-S02/issues"
+  },
+  "homepage": "https://github.com/Phiyada222222/Fullstack-268-S02#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "prettier": "^3.8.0"
+  }
+}
