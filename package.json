@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "format": "prettier --write*.js"
+    "start": " src /node index.js",
+    "format": "prettier --write*.js",
+    "dev": "nodemon src /node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "prettier": "^3.8.0"
+    "prettier": "^3.8.0",
+    "sequelize": "^6.37.7"
   }
 }
